@@ -1,0 +1,155 @@
+/* inter fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-fonts {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* miama-fonts */
+.miama {
+  font-family: "Miama", sans-serif;
+  font-size: 10rem;
+  font-weight: 400;
+}
+
+/* univeral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* shared-style */
+:root {
+  --primary-color: #e6533c;
+  --font-color: #ffffff;
+  --secondary-font-color: rgba(255, 255, 255, 0.5);
+  --secondary-color: black;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 42px;
+  padding: 16px 46.5px;
+}
+.middle {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+/* header */
+body {
+  background-color: var(--secondary-color);
+}
+header {
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 40, 40, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+nav {
+  padding-top: 58px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+.nav-links {
+  gap: 47px;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--font-color);
+}
+.nav-btn {
+  padding: 8px 20px;
+}
+
+/* banner */
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.banner-content h1 {
+  font-size: 4.87rem;
+  color: var(--font-color);
+  font-weight: 900;
+  max-width: 520px;
+  line-height: 120%;
+}
+.banner-content p {
+  color: var(--secondary-font-color);
+  font-size: 1rem;
+  max-width: 520px;
+  margin: 28px 0;
+}
+.content-btn {
+  gap: 14px;
+}
+.download-btn {
+  background-color: #0f0f0f;
+  border: 1px solid white;
+}
+.banner-img {
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+}
+.video-tutorial {
+  padding: 20px 23px;
+  background-color: rgba(48, 48, 48, 0.54);
+  max-width: 206px;
+  border-radius: 12px;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  bottom: 63px;
+  left: -113px;
+}
+.video-tutorial .round {
+  width: 40px;
+  height: 40px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+.video-tutorial h1,
+.workout-videos h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+.video-tutorial p {
+  color: var(--secondary-font-color);
+  margin-top: 8px;
+  font-size: 1rem;
+}
+.workout-videos {
+  background-color: rgba(48, 48, 48, 0.54);
+  padding: 17px 24px;
+  border-radius: 12px;
+  max-width: 193px;
+  position: absolute;
+  right: -65px;
+  top: 125px;
+}
+.workout-videos p {
+  color: var(--secondary-font-color);
+  margin-top: 8px;
+  font-size: 0.81rem;
+}

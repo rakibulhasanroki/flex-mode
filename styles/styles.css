@@ -50,6 +50,9 @@
 body {
   background-color: var(--secondary-color);
 }
+.hide {
+  display: none;
+}
 /* header */
 header {
   background: linear-gradient(
@@ -215,3 +218,44 @@ nav h1 {
 }
 
 /* run extra miles easily */
+.run {
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+}
+.run-contents {
+  padding: 32px 32px 32px 54px;
+  justify-content: space-between;
+  align-items: center;
+}
+.run-details {
+  width: 45%;
+}
+.details-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.details-title,
+.details-description,
+.details-btn {
+  max-width: 443px;
+}
+.details-btn {
+  padding: 16px 71.5px;
+}
+.details-description {
+  font-size: 0.87rem;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 14px 0 34px 0;
+}
+.run-img {
+  width: 45%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  object-position: center;
+}

@@ -90,6 +90,42 @@
   .habit-card {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* runextra miles */
+  .run {
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    width: 90%;
+  }
+  .run-contents {
+    flex-direction: column;
+
+    padding: 31px 33px;
+    gap: 30px;
+  }
+  .run-details {
+    width: 100%;
+  }
+  .details-title {
+    font-size: 2rem;
+  }
+
+  .details-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .run-img {
+    width: 100%;
+  }
+  .run-img img {
+    width: 100%;
+    border-radius: 18px;
+  }
+  .hide {
+    display: block;
+  }
 }
 /* tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -140,6 +176,22 @@
   .habit-card {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* runextra miles */
+  .run {
+    width: 90%;
+  }
+
+  .details-title {
+    font-size: 2.25rem;
+  }
+
+  .run-img img {
+    width: 256px;
+    height: 319px;
+    object-fit: cover;
+    object-position: right;
+  }
 }
 /* laptop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -169,6 +221,16 @@
   .habit-card {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* runextra miles */
+  .run {
+    width: 90%;
+  }
+  .run-img img {
+    height: 319px;
+    object-fit: cover;
+    object-position: right;
+  }
 }
 /* large */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -189,5 +251,8 @@
   }
   .habit-card {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .run {
+    width: 85%;
   }
 }

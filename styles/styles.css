@@ -44,11 +44,13 @@
 .flex {
   display: flex;
 }
-
-/* header */
+.hide {
+  display: none;
+}
 body {
   background-color: var(--secondary-color);
 }
+/* header */
 header {
   background: linear-gradient(
     to bottom,
@@ -71,19 +73,26 @@ nav h1 {
   gap: 47px;
 }
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.12rem;
   font-weight: 600;
   color: var(--font-color);
 }
 .nav-btn {
   padding: 8px 20px;
 }
-
+.menu {
+  color: white;
+  display: none;
+}
 /* banner */
 .banner {
-  justify-content: space-between;
-  align-items: center;
   margin-top: 32px;
+}
+.banner-contents {
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 599px;
 }
 .banner-content h1 {
   font-size: 4.87rem;
@@ -97,6 +106,7 @@ nav h1 {
   font-size: 1rem;
   max-width: 520px;
   margin: 28px 0;
+  line-height: 24px;
 }
 .content-btn {
   gap: 14px;

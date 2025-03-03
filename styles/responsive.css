@@ -1,0 +1,135 @@
+/* mobile */
+@media screen and (max-width: 576px) {
+  .miama {
+    font-size: 6rem;
+  }
+  /* header */
+  nav {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  /* banner */
+  .banner {
+    width: 90%;
+    margin-top: 51px;
+  }
+  .banner-contents {
+    flex-direction: column;
+  }
+  .banner-content h1 {
+    font-size: 2.25rem;
+    max-width: 285px;
+  }
+  .banner-content p {
+    max-width: 274px;
+  }
+
+  .content-btn a {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .join-now {
+    padding: 16px 41.5px;
+  }
+  .club {
+    display: none;
+  }
+  .download-btn {
+    padding: 16px 20.5px;
+  }
+  .video-tutorial {
+    padding: 14px 16px;
+    max-width: 155px;
+    bottom: 151px;
+    left: 12px;
+  }
+  .video-tutorial .round {
+    width: 30px;
+    height: 30px;
+  }
+  .video-tutorial h1,
+  .workout-videos h1 {
+    font-size: 1.12rem;
+  }
+  .video-tutorial p {
+    font-size: 0.75rem;
+  }
+  .workout-videos {
+    padding: 12px 16px;
+    max-width: 145px;
+    right: 10px;
+    top: 48px;
+  }
+  .workout-videos p {
+    font-size: 0.61rem;
+  }
+}
+/* tablet */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* header */
+  nav {
+    width: 90%;
+  }
+  /* banner */
+  .banner {
+    width: 90%;
+    margin-top: 75px;
+  }
+  .banner-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-content h1,
+  p {
+    max-width: 599px;
+  }
+  .video-tutorial {
+    bottom: 151px;
+    left: 12px;
+  }
+  .workout-videos {
+    right: -12px;
+    top: 48px;
+  }
+}
+/* laptop */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* header */
+  nav {
+    width: 90%;
+  }
+  /* banner */
+  .banner {
+    width: 90%;
+  }
+  .banner-contents {
+    align-items: center;
+  }
+  .video-tutorial {
+    bottom: 151px;
+    left: 12px;
+  }
+  .workout-videos {
+    right: -12px;
+    top: 48px;
+  }
+}
+/* large */
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  /* header */
+  nav {
+    width: 85%;
+  }
+  /* banner */
+  .banner {
+    width: 85%;
+  }
+  .banner-contents {
+    align-items: center;
+  }
+}

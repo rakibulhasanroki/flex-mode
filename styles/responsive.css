@@ -68,6 +68,28 @@
   .workout-videos p {
     font-size: 0.61rem;
   }
+
+  /* change your habit */
+
+  .habit {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .habit-description {
+    margin-bottom: 58px;
+    text-align: center;
+  }
+  .habit-description h1 {
+    font-size: 2rem;
+  }
+  .habit-description p {
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .habit-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /* tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -96,6 +118,28 @@
     right: -12px;
     top: 48px;
   }
+
+  /* change your habit */
+
+  .habit {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .habit-description {
+    margin-bottom: 58px;
+    text-align: center;
+  }
+  .habit-description h1 {
+    font-size: 2rem;
+  }
+  .habit-description p {
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .habit-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* laptop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -118,6 +162,13 @@
     right: -12px;
     top: 48px;
   }
+  /* change your habit */
+  .habit {
+    width: 90%;
+  }
+  .habit-card {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 /* large */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -131,5 +182,12 @@
   }
   .banner-contents {
     align-items: center;
+  }
+  /* change your habit */
+  .habit {
+    width: 85%;
+  }
+  .habit-card {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

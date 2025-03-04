@@ -126,6 +126,34 @@
   .hide {
     display: block;
   }
+
+  /* training */
+  .training {
+    width: 90%;
+  }
+  .training-img {
+    display: grid;
+    grid-template-areas:
+      "img-1 img-2"
+      "img-4 img-5";
+  }
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6 {
+    height: 128px;
+  }
+  .img-3,
+  .img-6 {
+    display: none;
+  }
+  .training-img img {
+    object-fit: cover;
+    object-position: right;
+    height: 128px;
+  }
 }
 /* tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -192,6 +220,10 @@
     object-fit: cover;
     object-position: right;
   }
+  /* training */
+  .training {
+    width: 90%;
+  }
 }
 /* laptop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -231,6 +263,10 @@
     object-fit: cover;
     object-position: right;
   }
+  /* training */
+  .training {
+    width: 90%;
+  }
 }
 /* large */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -245,6 +281,7 @@
   .banner-contents {
     align-items: center;
   }
+
   /* change your habit */
   .habit {
     width: 85%;
@@ -252,7 +289,13 @@
   .habit-card {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* run extra mile easily */
   .run {
+    width: 85%;
+  }
+  /* training */
+  .training {
     width: 85%;
   }
 }

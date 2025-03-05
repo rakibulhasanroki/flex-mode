@@ -154,6 +154,30 @@
     object-position: right;
     height: 128px;
   }
+
+  /* bmi calculator */
+  .bmi-headers {
+    margin-bottom: 40px;
+  }
+  .bmi-headers,
+  .calculation-box {
+    width: 90%;
+  }
+  .header-titles,
+  .header-description {
+    margin-left: 0;
+    max-width: 671px;
+  }
+  .box-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-titles {
+    font-size: 1.37rem;
+  }
+  .calculation-box {
+    padding: 20px 0;
+  }
 }
 /* tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -224,6 +248,28 @@
   .training {
     width: 90%;
   }
+
+  /* bmi calculator */
+  .bmi-headers {
+    margin-bottom: 40px;
+  }
+  .bmi-headers,
+  .calculation-box {
+    width: 90%;
+  }
+  .header-titles,
+  .header-description {
+    margin-left: 0;
+    max-width: 671px;
+  }
+  .box-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .calculation-box {
+    padding: 20px 0;
+  }
 }
 /* laptop */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -267,6 +313,11 @@
   .training {
     width: 90%;
   }
+
+  .bmi-headers,
+  .calculation-box {
+    width: 90%;
+  }
 }
 /* large */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -296,6 +347,11 @@
   }
   /* training */
   .training {
+    width: 85%;
+  }
+
+  .bmi-headers,
+  .calculation-box {
     width: 85%;
   }
 }

@@ -211,6 +211,10 @@
   .flex-mode h1 {
     font-size: 4rem;
   }
+  .get-flex {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 /* tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {

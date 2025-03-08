@@ -53,6 +53,12 @@ body {
 .hide {
   display: none;
 }
+.para-style {
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
 /* header */
 header {
   background: linear-gradient(
@@ -184,12 +190,8 @@ nav h1 {
   margin-bottom: 14px;
 }
 .habit-description p {
-  font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.5);
   max-width: 671px;
   margin: 0 auto;
-  line-height: 24px;
-  letter-spacing: 0.3px;
 }
 .habit-card {
   display: grid;
@@ -209,12 +211,6 @@ nav h1 {
   font-weight: 600;
   color: #ffffff;
   margin: 30px 0 6px 0;
-}
-.card p {
-  font-size: 0.87rem;
-  line-height: 18px;
-  letter-spacing: 0.3px;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 /* run extra miles easily */
@@ -244,10 +240,6 @@ nav h1 {
   padding: 16px 71.5px;
 }
 .details-description {
-  font-size: 0.87rem;
-  line-height: 24px;
-  letter-spacing: 0.3px;
-  color: rgba(255, 255, 255, 0.5);
   margin: 14px 0 34px 0;
 }
 .run-img {
@@ -271,11 +263,7 @@ nav h1 {
 }
 
 .training-description {
-  font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.5);
   max-width: 671px;
-  line-height: 24px;
-  letter-spacing: 0.3px;
 }
 .training-img {
   margin-top: 58px;
@@ -390,10 +378,6 @@ nav h1 {
   font-weight: 700;
 }
 .header-description {
-  font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 24px;
-  letter-spacing: 0.3px;
   margin-top: 14px;
 }
 
@@ -422,9 +406,7 @@ td {
   font-weight: 700;
 }
 .calculate-bmi p {
-  font-size: 0.87rem;
   margin: 14px 0 34px 0;
-  color: rgba(255, 255, 255, 0.5);
   max-width: 577px;
 }
 .bmi-input {
@@ -436,7 +418,8 @@ td {
 #height,
 #weight,
 #age,
-#sex {
+#sex,
+#activity-factor {
   width: 50%;
   padding: 13px 0 13px 20px;
   font-size: 1rem;
@@ -454,14 +437,7 @@ td {
   gap: 20px;
 }
 #activity-factor {
-  padding: 13px 0px 13px 20px;
   width: 100%;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: rgba(255, 255, 255, 0.1);
-  outline: none;
-  border: none;
-  border-radius: 8px;
 }
 
 .calculate-btn {
@@ -482,15 +458,11 @@ td {
   text-align: center;
 }
 .teams-description {
-  font-size: 0.87rem;
-  color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   margin-top: 14px;
   margin-bottom: 58px;
   text-align: center;
   max-width: 671px;
-  letter-spacing: 0.3px;
-  line-height: 24px;
 }
 .our-team {
   background-color: rgba(255, 255, 255, 0.1);
@@ -526,7 +498,36 @@ td {
   font-size: 1.25rem;
   font-weight: 700;
 }
-.member-title p {
-  font-size: 0.87rem;
+
+/* footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.flex-foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 66px 0 79px 0;
+}
+.flex-mode h1 {
+  color: rgba(230, 83, 60, 1);
+  font-size: 4.37rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.flex-mode p {
+  max-width: 443px;
+}
+.get-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.get-started h1 {
+  font-size: 2rem;
+  margin-bottom: 39px;
+  color: #ffffff;
+}
+.get-started p {
+  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.5);
 }
